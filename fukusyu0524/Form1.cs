@@ -24,22 +24,25 @@ namespace fukusyu0524
         private void button1_Click(object sender, EventArgs e)
         {
             vy=-5;
-
+            vx = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             vx=-5;
+            vy = 0;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             vx=5;
+            vy = 0;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             vy=5;
+            vx = 0;
         }
 
         private void label1_Click(object sender, EventArgs e)
